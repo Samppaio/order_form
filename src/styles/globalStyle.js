@@ -23,8 +23,44 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 62.5%;
   }
 
+  @media (max-width: 768px) {
+    html {
+      font-size: 60%;
+    }
+  }
+
+  @media (max-width: 670px) {
+    html {
+      font-size: 50%;
+    }
+  }
+
+  @media (max-width: 560px) {
+    html {
+      font-size: 40%;
+    }
+  }
+
+  @media (max-width: 425px) {
+    html {
+      font-size: 35%;
+    }
+  }
+
+  @media (max-width: 375px) {
+    html {
+      font-size: 30%;
+    }
+  }
+
+  @media (max-width: 320px) {
+    html {
+      font-size: 25%;
+    }
+  }
+
   body {
-    min-height: 100vh;
+    height: 100vh;
     background: linear-gradient(90deg, var(--blue), var(--aquamarine));
     display: flex;
     justify-content: center;
